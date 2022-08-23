@@ -1,0 +1,254 @@
+/*MEDIA QUERIES*/
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    body {
+        padding-top: 1%;
+    }
+
+    .info-Usuario {
+        font-size: 0.8em;
+    }
+
+    .btn-Encriptador,
+    .btn-desencriptador {
+        font-size: 1.4em;
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    .btns-Controller {
+        display: inline;
+    }
+
+    .output-Container {
+        margin-top: 10%;
+        padding: 5%;
+        height: 35vh;
+    }
+
+    .output-Container p {
+        font-size: 1.5em;
+    }
+
+    footer {
+        padding: 2%;
+        font-size: 1.2em;
+        margin-top: 12%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1365px) {
+    body {
+        padding-top: 1%;
+    }
+
+    .info-Usuario {
+        font-size: 0.8em;
+    }
+
+    .btn-Encriptador,
+    .btn-desencriptador {
+        font-size: 1.4em;
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    .btns-Controller {
+        display: inline;
+    }
+
+    .output-Container {
+        margin-top: 10%;
+        padding: 5%;
+        height: 35vh;
+    }
+
+    .output-Container p {
+        font-size: 1.5em;
+    }
+
+    footer {
+        padding: 2%;
+        font-size: 1.2em;
+        margin-top: 12%;
+    }
+}
+
+@media screen and (min-width:1366px) and (max-width:1599px) {
+    body {
+        padding: 3% 3% 0% 3%;
+    }
+
+    .img {
+        background-image:
+            url('../img/Muñeco.png');
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center;
+        height: 70%;
+        width: 100%;
+    }
+
+    .text-Container {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .text-Content {
+        height: 20vh;
+        font-size: 3em;
+        color: #0A3871;
+        box-shadow: none;
+        background-color: #E9ECF8;
+    }
+
+    .btns-Container {
+        margin-top: 15%;
+        width: 75%;
+    }
+
+    .info-Usuario {
+        font-size: 1em;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    svg {
+        width: 55px;
+        height: 50px;
+    }
+
+    .output-Container {
+        padding: 0;
+        border-radius: 20px;
+        font-size: 1em;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        width: 35%;
+    }
+
+    .btn-Encriptador,
+    .btn-desencriptador {
+        font-size: 1.5em;
+        margin-left: 2%;
+        width: 30%;
+        padding: 2%;
+    }
+
+    .btns-Controller {
+        margin: 0%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    footer {
+        padding: 2%;
+        font-size: 1.8em;
+        margin-top: 5%;
+    }
+
+    footer p {
+        font-size: 1.2em;
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width:1920px) {
+    body {
+        padding: 3% 3% 0% 3%;
+    }
+
+    .img {
+        background-image:
+            url('../img/Muñeco.png');
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .text-Container {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .text-Content {
+        height: 20vh;
+        font-size: 3em;
+        color: #0A3871;
+        box-shadow: none;
+        background-color: #E9ECF8;
+    }
+
+    .btns-Container {
+        margin-top: 15%;
+        width: 75%;
+    }
+
+    .info-Usuario {
+        font-size: 1.5em;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    svg {
+        width: 55px;
+        height: 50px;
+    }
+
+    .output-Container {
+        border-radius: 20px;
+        font-size: 2em;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        position: absolute;
+        left: 60%;
+        top: 5%;
+        width: 35%;
+    }
+
+    .btn-Encriptador,
+    .btn-desencriptador {
+        font-size: 1.5em;
+        margin-left: 2%;
+        width: 30%;
+        padding: 2%;
+    }
+
+    .btns-Controller {
+        margin: 0%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    footer {
+        padding: 2%;
+        font-size: 1.8em;
+        margin-top: 5%;
+    }
+
+    footer p {
+        font-size: 1.2em;
+        margin-top: 0%;
+    }
+}
+
+.procesando {
+    background-image:
+        url('https://media2.giphy.com/media/C9kK1lR4v93y9mOR8s/giphy.gif?cid=ecf05e47faezaidvddhx1fchdcew4qagjfe3b9pa30sjywx9&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
